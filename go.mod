@@ -54,7 +54,7 @@ require (
 	gopkg.in/mgo.v2 v2.0.0-20190816093944-a6b53ec6cb22
 	gopkg.in/olivere/elastic.v3 v3.0.56
 	gopkg.in/olivere/elastic.v5 v5.0.85
-	gopkg.in/olivere/elastic.v6 v6.2.31
+	gopkg.in/olivere/elastic.v6 v6.2.37
 	gopkg.in/vmihailenco/msgpack.v2 v2.9.1
 	gorm.io/driver/mysql v1.0.3
 	gorm.io/driver/postgres v1.0.5

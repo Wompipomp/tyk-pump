@@ -1065,8 +1065,8 @@ gopkg.in/olivere/elastic.v3 v3.0.56 h1:iHfmo0wHEovfTiVQwEny1P0p5op1OWkh9xF5hJ1oH
 gopkg.in/olivere/elastic.v3 v3.0.56/go.mod h1:yDEuSnrM51Pc8dM5ov7U8aI/ToR3PG0llA8aRv2qmw0=
 gopkg.in/olivere/elastic.v5 v5.0.85 h1:GwBqEsvRIHVfCQVXDHYi9LHec2yEkc3GNKh9WB8G/es=
 gopkg.in/olivere/elastic.v5 v5.0.85/go.mod h1:M3WNlsF+WhYn7api4D87NIflwTV/c0iVs8cqfWhK+68=
-gopkg.in/olivere/elastic.v6 v6.2.31 h1:qA/+hd/HGWpibGEy3d2zXBSdWx8DTLASm6/GusSuD7g=
-gopkg.in/olivere/elastic.v6 v6.2.31/go.mod h1:2cTT8Z+/LcArSWpCgvZqBgt3VOqXiy7v00w12Lz8bd4=
+gopkg.in/olivere/elastic.v6 v6.2.37 h1:y1SqAL8MJvKckEOo3aZ+Ie0TDIYjrItZ9WBN3VzhoRM=
+gopkg.in/olivere/elastic.v6 v6.2.37/go.mod h1:2cTT8Z+/LcArSWpCgvZqBgt3VOqXiy7v00w12Lz8bd4=
 gopkg.in/tomb.v1 v1.0.0-20141024135613-dd632973f1e7 h1:uRGJdciOHaEIrze2W8Q3AKkepLTh2hOroT7a+7czfdQ=
 gopkg.in/tomb.v1 v1.0.0-20141024135613-dd632973f1e7/go.mod h1:dt/ZhP58zS4L8KSrWDmTeBkI65Dw0HsyUHuEVlX15mw=
 gopkg.in/vmihailenco/msgpack.v2 v2.9.1 h1:kb0VV7NuIojvRfzwslQeP3yArBqJHW9tOl4t38VS1jM=
