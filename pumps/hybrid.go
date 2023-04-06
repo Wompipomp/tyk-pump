@@ -211,7 +211,10 @@ func (p *HybridPump) onConnectFunc(conn net.Conn) (net.Conn, string, error) {
 }
 
 func (p *HybridPump) callRPCFn(funcName string, request interface{}) (interface{}, error) {
-	return p.funcClientSingleton.CallTimeout(funcName, request, time.Duration(p.hybridConfig.CallTimeout)*time.Second)
+	p.log.Debug("Start calling !!!!!!!!!!!!!")
+	timeout, err := p.funcClientSingleton.CallTimeout(funcName, request, time.Duration(p.hybridConfig.CallTimeout)*time.Second)
+	p.log.Debug("End calling !!!!!!!!!!!!!")
+	return timeout, err
 }
 
 func getDialFn(connID string, config *HybridPumpConf) func(addr string) (conn net.Conn, err error) {
@@ -306,7 +309,7 @@ func (p *HybridPump) WriteData(ctx context.Context, data []interface{}) error {
 			return err
 		}
 	}
-	p.log.Info("Purged ", len(data), " records...")
+	p.log.Info("!!!!!!!!!!!!Purged ", len(data), " records...")
 
 	return nil
 }
